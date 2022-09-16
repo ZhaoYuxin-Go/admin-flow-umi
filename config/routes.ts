@@ -43,10 +43,17 @@
     ],
   },
   {
-    name: 'list.table-list',
+    name: 'list',
     icon: 'table',
     path: '/list',
     component: './TableList',
+    routes: [
+      {
+        name: 'table-list',
+        path: '/list/table-list',
+        component: './TableList',
+      },
+    ],
   },
   {
     path: '/',
